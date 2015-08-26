@@ -1,0 +1,178 @@
+.wrapper{
+		margin-top:35px;
+	}
+.navbar{
+		border-radius:0px;
+		height:20px;
+		display:block;
+	}
+.navbar-nav > li > a { padding-top: 5px !important; padding-bottom: 5px !important; }
+.navbar { min-height: 32px !important; }
+.navbar-brand { padding-top: 5px; padding-bottom: 10px; padding-left: 10px; }
+.panel{
+	min-height:150px!important;
+	height:auto;
+}
+.wrapper h4{
+	margin:0;
+	padding:0;
+	width:auto;
+	text-align:center;
+	display:block;
+}
+
+/*.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+border:1px solid black;
+}*/
+
+.col-md-4.car{
+	width:auto;
+	margin:0;
+	padding:0;
+	margin-top:10px;
+	height:80px;
+	float:left;
+	/*border:1px solid black;*/
+}
+.row{
+}
+
+ a.art_img{
+	display:block;
+	float:left;
+	padding:23px 5px 10px 10px;
+}
+.art_title{
+	margin-top:3px;
+	/*border:1px solid black;*/
+	float:left;
+	width:75%;
+	height:auto;
+
+}
+.col-md-4 > .art_title > a{
+
+}
+.info{
+	display:block;
+	float:right;
+	margin-right:20px;
+
+}
+
+.fa{
+	padding-left:5px;
+	color:gray;
+}
+.count_com,.count_likes{
+	padding-left:1px;
+	color:gray;
+}
+
+.btn.prev{
+position:absolute;
+margin-left:-60px;
+margin-top:-60px;
+}
+.btn.next{
+position:absolute;
+right:0;
+margin-top:-60px;
+margin-right:50px;
+
+}
+.col-md-6.main > .row .col-md-4{
+	margin-top:10px;
+	padding:5px;
+}
+.col-md-6.main > .row .col-md-4 img{
+
+	width:180px;
+	 height:120px;
+	}
+.category,.main_title{border:1px solid black;}
+.category{
+	height:40px;
+	margin-bottom:5px;
+}
+.main_title{
+	font-size:14px;
+	display:block;
+}
+.btn_categ{
+	display:block;
+	margin-top:10px;
+	height:20px;
+	background:gray;
+	color:white;
+	font-size:12px;
+	border:none;
+	border-radius:3px;
+}
+.btn_categ:hover{
+background:#637ee9;
+}
+.btn_categ span{
+display:block;
+margin-left:-2px;
+}
+
+a#likes > .fa-heart:hover,.count_likes:hover{
+	color:#ff675b;
+}
+a#comms > .fa-comments:hover,.count_comms:hover{
+	color:#637ee9;
+}
+
+input[type=email],input[type=password]{
+	margin-top:20px;
+}
+
+h4.err{
+	color:red;
+}
+.userbar{
+	margin:0;
+	padding:0;
+}
+.userbar img{
+	width:auto;
+	height:27px;
+	margin-right:5px;
+}
+.userbar > a > span{
+	padding-bottom:3px;
+	padding-left:3px;
+	display:block;
+	float:right;
+}
+
+/* signUpForm.blade.php  */
+
+.reg{
+	margin-top:20px;
+}
+
+.control-label,.form-control{
+	margin-top:20px;
+}
+.btn-file{
+	margin-top:20px;
+}
+.submit{
+	margin-top:20px;
+}
+.form-group.required > .control-label:after { 
+    color: #d00;
+    content: "*";
+    position: absolute;
+    margin-left: 8px;
+    top:7px;
+}
+.panel-errors{
+	height:auto;
+}
+
+.marginTop{
+	margin-top:20px;
+}
